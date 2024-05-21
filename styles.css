@@ -1,0 +1,360 @@
+/********* Header CSS Starts **********/
+  .header1 {
+    text-align: center;
+    background-color:white;
+    color: #183878;
+    padding: 2px 0;
+  }
+
+  .header-content1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .school-name1 {
+    font-size: 50px;
+    margin-right: 10px;
+	font-family: 'Arial black';
+  }
+
+  .sub-caption1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .logo1 {
+    max-width: 80px;
+    height: auto;
+    margin:5px 15px;
+  }
+
+  @media screen and (max-width: 768px) {
+    
+	.school-name1 {
+    font-size: 40px;
+    margin-right: 5px;
+font-family: 'impact';
+  }
+
+  .sub-caption1 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+
+  .logo1 {
+    max-width: 70px; 
+    height: auto;
+    margin:2px 10px; 
+  }
+    }
+   #scroll-container1 {
+    background-color:#D6EAF8  ;
+    color:red;
+    overflow: hidden;
+    }
+	@media screen and (max-width: 768px){
+	.gif{
+		width:8%;
+	}
+	}
+/********* Header CSS End **********/
+
+
+/********* Navbar 1 Starts Here **********/
+.navbar-nav {
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+    }
+    .nav-item {
+      margin-right: 40px;
+    }
+    .nav-link {
+      position: relative;
+      color: green;
+      transition: color 0.3s ease;
+    }
+    .nav-link:hover {
+      color: white; 
+	  background-color: #62D0FC;
+	  border-radius:25px;
+    }
+/********* Navbar 1 ends Here **********/	
+
+/********* Navbar 2 Starts Here **********/
+.navbar2 {
+  background-color:#183878 ;
+  text-align: center;
+}
+
+.nav-list2 {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-list2 li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.nav-list2 li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: inline-block;
+}
+
+.nav-list2 li a:hover {
+  background-color: white;
+  color:#183878;
+  border-radius:30px;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar2 {
+    display: none;
+  }
+}
+/********* Navbar 2 ends Here **********/
+
+/********** About Us CSS Starts **********/  
+.container5 {
+      max-width:1500px;
+      margin:30px 10px 50px 10px;
+       display: flex;
+	  flex-direction:wrap;
+      align-items: center;
+     }
+    .description5 {
+      flex: 1;
+      margin-right: 10px;
+      text-align: center;
+	  font-size:20px;
+	  line-height: 35px;
+	  font-weight:10px;
+    }
+    .description5 p {
+      margin-bottom: 10px;
+    }
+    .container5 img {
+      max-width: 400px;
+      border-radius: 8px;
+    }
+    .heading5 {
+      font-size: 30px;
+	  color:#183878;
+      margin-bottom: 10px;
+	  
+    }
+    @media (max-width: 768px) {
+      .container5 {
+        flex-direction: column;
+        text-align: center;
+      }
+      .description5, .container5 img {
+        margin-right: 0;
+		font-size:15px;
+	  line-height: 30px;
+      }
+      .container5 img {
+        margin-top: 10px;
+		max-width: 280px;
+      }
+    }
+		
+/********** About Us CSS Ends **********/
+
+/********** Principals msg Starts **********/
+ .container9 {
+      display: flex;
+      justify-content: space-between;
+      margin:30px 0px 0px 10px;
+    }
+    .section9 {
+      flex: 1;
+      padding: 20px;
+    }
+    .heading9 {
+      font-size: 25px;
+      margin-bottom: 10px;
+	  text-align:center;
+	  color:white;
+	  background-color:#183878;
+    }
+    .description9 {
+      display: flex;
+      align-items: center;
+	  font-size:15px;
+    }
+    .description9 p {
+      margin-left: 10px;
+    }
+    .image9 {
+      max-width: 180px;
+      border-radius: 8px;
+    }
+    @media (max-width: 768px) {
+      .container9  {
+        flex-direction: column;
+      }
+      .section9 {
+        margin-bottom: 10px;
+		flex-direction:column;
+      }
+	  .description9 {
+	  margin-right: 0;
+		font-size:15px;
+	  line-height: 30px;
+	  text-align:left;
+	  flex-direction:column;
+	  }
+	  .heading9 {
+      font-size: 20px;
+	  text-align:center;
+	  }
+	  .image9 {
+      max-width: 100%;
+      border-radius: 8px;
+	  flex-direction:column;
+    }
+	}
+
+/********** Principals msg Ends **********/
+
+/* campus starts */
+
+  .containercampus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	margin:40px 0px 30px 0px;
+  }
+  
+  .contentcampus {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .descriptioncampus {
+	font-size:18px;
+	margin-left:15px;
+	text-align: left;
+	 line-height: 40px;
+  }
+  .imagecampus {
+    max-width: 30%;
+	border-radius:5px;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .contentcampus {
+      flex-direction: column;
+    }
+	.imagecampus {
+    max-width: 100%;
+	padding:0px 10px 0px 10px;
+	border-radius:8px;
+    
+  }
+  .descriptioncampus {
+	font-size:15px;
+	margin-left:15px;
+	text-align: left;
+	 line-height: 30px;
+  }
+  }
+
+/* campus endss */
+
+/****Feedback Video Starts****/
+.yeeth{
+		margin:auto;
+		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+		background-image: linear-gradient(to right, #F2F4F4, #CCD1D1);
+  }
+/****Feedback Video ends****/
+
+
+/****Footer Starts****/
+footer{
+display:flex;
+flex-wrap:wrap;
+text-align:center;
+}
+.foott{
+font-size:12px;
+}
+.fbinsta{
+margin:0px 10px 8px;
+}	
+/****Footers endss****/
+
+
+.saikiran {
+  position: fixed;
+  bottom: 200px;
+  right: 0;
+  width: 40px;
+  border: 3px solid #0000FF;
+  border-radius:8px;
+  rotate:0deg;
+  z-index:5;
+}
+
+/****Gallery Starts****/
+
+* {
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+}
+body{
+background: #ecf4fb;
+}
+.img-gallery{
+width: 80%;
+margin: 50px auto 50px;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+grid-gap: 30px;
+} 
+.img-gallery img{
+width: 100%;
+cursor: pointer;
+transition: 0.4s;
+}
+.img-gallery img:hover{
+transform: scale(0.8) rotate(-15deg);
+border-radius: 20px;
+box-shadow: 0 32px 75px rgba(68,77,136, 0.2);
+}
+.full-img{
+width: 100%;
+height: 100vh;
+background: rgba(0,0,0,0.9);
+position: fixed;
+top: 0;
+left: 0;
+display: none;
+align-items: center;
+justify-content: center;
+z-index: 100;
+}
+.full-img img{
+width: 90%;
+max-width: 500px;
+}
+
+.full-img span{
+position: absolute;
+top: 5%;
+right: 5%;
+font-size: 30px;
+color: #fff;
+cursor: pointer;
+}
+
+/****Gallery Ends****/

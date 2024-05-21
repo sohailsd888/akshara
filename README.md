@@ -1,1 +1,1 @@
-# akshara
+# akshara-school
